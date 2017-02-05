@@ -1,11 +1,11 @@
 #!/bin/bash
 set -e
 
-EM_DIR=~/src/emscripten
+EM_DIR=/usr/local/bin
 BASE_DIR=`pwd`
 #FREETYPE_DIR=$EM_DIR/tests/freetype
-FREETYPE_DIR=$BASE_DIR/freetype-2.5.3
-POPPLER_DIR=$BASE_DIR/poppler-0.26.3
+FREETYPE_DIR=$BASE_DIR/freetype2
+POPPLER_DIR=$BASE_DIR/poppler
 
 do_freetype () {
 pushd $FREETYPE_DIR
