@@ -1,5 +1,9 @@
-/freetype2/
-/poppler/
+/src/vendors/freetype/
+/src/vendors/harfbuzz/
+/src/vendors/ucdn/
+/src/vendors/poppler/
+/src/vendors/poppler-1/
+/emsdk/
 
 *.DS_Store
 .AppleDouble
